@@ -1,4 +1,5 @@
 fn main() {
-    let x = 4;
-    
+    let x: i32 = 4;
+    println!("{}", x);
+
 }
