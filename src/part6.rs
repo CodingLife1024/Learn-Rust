@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    let mut input = String::new();
-    io::stdin().read_line(&mut input).expect("failed to read line");
-    println!("The input is: {}", input);
+    let x = 75_i8;
+    let y = 6_i8;
+    println!("{}", x+y);
 }
