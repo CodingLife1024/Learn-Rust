@@ -5,7 +5,7 @@ fn main() {
 
     let number = {
         let x = 3;
-        x + 1 
+        x + 1
     };
     println!("{}", number);
 }
@@ -15,5 +15,5 @@ fn test_one() {
 }
 
 fn add_numbers(x: i32, y: i32) {
-    println!("The sum is: {}", x + y);
+    println!("The sum is: {}", x + y)
 }
